@@ -1,0 +1,82 @@
+* {
+  font-family: Inter;
+}
+
+.userimg-- {
+  width: 100%;
+  object-fit: fill;
+}
+.useravatar-container {
+  padding-top: 21px;
+  height: fit-content;
+  background: linear-gradient(45deg, #a3e635, #f87171);
+}
+
+.title-container-- {
+  padding: 20px 0;
+}
+
+.info--title {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+.title-container-- > p {
+  font-size: 12.8px;
+  text-transform: capitalize;
+  color: #f59e0b;
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+}
+.title-container-- > a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  font-size: 10.24px;
+  margin-top: 8px;
+  font-weight: 100;
+}
+.info--btn-container {
+  padding: 0 35px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 17px;
+}
+.info--btn-container > button {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  padding: 9px 10px;
+  height: 34px;
+  border-radius: 10px;
+  border: none;
+  transition: all 300ms ease-in-out;
+}
+.info--btn-container > button:nth-child(2) {
+  background-color: #5093e2;
+  color: white;
+}
+.info--btn-container > button > p {
+  font-size: 14px;
+  text-transform: capitalize;
+  margin: 0;
+}
+.info--btn-container > button:hover {
+  transform: scale(0.95);
+}
+.mail {
+  width: 16px;
+  height: 16px;
+}
+.linkedin {
+  fill: white;
+  width: 16px;
+  height: 16px;
+}

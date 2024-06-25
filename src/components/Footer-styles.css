@@ -1,0 +1,15 @@
+ul {
+  background-color: #161619;
+  list-style: none;
+  padding: 20px 0px 19px 0px;
+  margin: 0;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul > li > a > * {
+  fill: #918e9b;
+  height: 35px;
+  width: 35px;
+}

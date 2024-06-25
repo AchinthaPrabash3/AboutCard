@@ -1,0 +1,17 @@
+.about-container-- {
+  margin-top: 33px;
+  padding: 0 40px;
+  color: white;
+}
+.about-container-- > h2 {
+  font-weight: 500;
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.about-container-- > p {
+  font-size: 13.24px;
+  font-weight: 200;
+  margin: 0;
+}

@@ -1,0 +1,14 @@
+.container-- {
+  max-width: 317px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #1a1b21;
+  overflow: hidden;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #23252c;
+}
