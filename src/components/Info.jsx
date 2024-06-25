@@ -22,10 +22,6 @@ const Info = () => {
         </a>
       </div>
       <div className="info--btn-container">
-        <button>
-          <HiEnvelope className="mail" />
-          <p>email</p>
-        </button>
         <button onClick={toLinkedin}>
           <FaLinkedin className="linkedin" />
           <p>linkedin</p>
